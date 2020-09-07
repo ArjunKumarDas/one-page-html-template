@@ -1,0 +1,160 @@
+/* Mobile Layout: 320px. */
+@media(min-width: 0px) and (max-width: 479px) { 
+    .menu-item li a{
+        padding: 10px 0px;
+    }
+    .see-project-titles p{
+    margin-bottom: 25px;
+    }
+    .protfolio-title h3{
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #252B3F;
+    margin-bottom: 10px;    
+}
+.protfolio-title h3 i{
+    margin-right: 3px;
+}
+    .left-controls{
+        margin-left: 35%;
+    }
+    .news-details h5{
+    margin-bottom: 25px;
+    }
+    .news-details{
+        padding: 0px 0px 25px 0px;
+    }
+    .check-protfolio {
+    margin-top: 5px;
+    margin-bottom: 30px;    
+}
+    .hire-me-icon a i{
+    text-align: center;
+    margin: 0px auto;
+    margin-left: 10px;    
+}
+    .work-item .overlay h4 {
+  display: none;
+}
+
+.work-item .overlay p {
+  display: none;
+}
+     .see-project-bg{
+    margin-top: 100px;
+}
+    .support-title h3{
+    font-size: 14px;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media(min-width: 480px) and (max-width: 767px) { 
+.work-item {
+  left: inherit !important;
+  width: 50%;
+}
+    .see-project-bg{
+    margin-top: 170px;
+}
+    .see-project-titles p{
+    margin-top: 720px;
+    margin-bottom: 50px;
+}
+    .travel-bg-overly{
+        padding: 100px 0px 0px 0px;
+    }
+    .check-protfolio {
+    margin-top: 0px;
+    margin-bottom: 40px;    
+}
+    .like-details h3:after{
+    left: 47%;
+}
+     .news-details h5{
+    margin-bottom: 25px;
+    }
+    .travel-bg-overly{
+        padding: 100px 0px 50px 0px;
+    }
+    .travel-feedback h4{
+    margin-top: 25px;
+}    
+    .footer-title{
+        margin-bottom: 55px;
+    }
+}
+/* Tablet Layout: 768px. */
+@media(min-width: 768px) and (max-width: 1024px) { 
+ .work-item {
+  left: 5% !important;
+  width: 100%;
+}
+    .logo img{
+        display: none;
+    }
+    .menu-item li a{
+    font-size: 10px;
+    margin-left: 8px;
+}
+    .nav-right{
+        margin-right: 50px;
+    }
+    .project-wrapper{
+         margin-bottom: 60px;
+    }
+    .work-item {
+    width: 25%;
+    position: relative;
+    margin-right: 2%;    
+}
+
+.work-item  img {
+  display: inline-block;
+  height: auto;   
+}
+    .see-project-bg{
+    margin-top: 470px;
+}
+    .like-details h3:after{
+        left: 47%;
+    }
+    .news-details h5{
+    margin-bottom: 25px;
+    }
+    .news-details{
+        padding: 0px 0px 25px 0px;
+    }
+.check-protfolio {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+}
+
+/* Medium Layout: 1024px. */
+@media(min-width: 1024px) and (max-width: 1200px) { 
+    .navbar-brand{
+        display: none;
+    }
+    .logo img{
+        width: 5%;
+        height: auto;
+        margin-left: 60px;
+    }
+    .menu-item li a{
+    font-size: 11px;
+    margin-left: 15px;
+}
+    .check-protfolio {
+    margin-top: 5px;
+}
+    .left-controls{
+        margin-bottom: 80px;
+    }
+        .see-project-bg{
+    margin-bottom: 0px;
+}
+    .see-project-titles p{
+    margin-bottom: 50px;
+}
+}
